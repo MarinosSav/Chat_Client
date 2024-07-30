@@ -1,12 +1,3 @@
-# Chat_Client
+# Chat Client using Network Protocols
 
-Implementation of network packet preparation. Translates ASCII messages to HEX code, attaching an encoded checksum payload for validation as typical in ALP (application-layer protocol) communication.
-
-Implementation of switch building a topological map of the network.
-
-Implementation of packet routing, detecting if a port is available and routing the packet.
-
-Implementation of a basic chat client between two endpoints.
-
-
-
+Implementation of a basic chat client between two endpoints. Utilizes typical ALP (application-layer protocol), translating ASCII messages to HEX code and attaches an encoded checksum payload for validation. A switch building a topological map of the network is then built and packet routing implemented, detecting if a port is available and routing the packet.
